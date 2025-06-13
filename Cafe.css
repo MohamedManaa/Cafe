@@ -1,0 +1,178 @@
+/* start global ruls */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", serif;
+  background-color: rgba(0, 0, 0, 0.945);
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* larg */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* end global ruls */
+
+/* start land */
+/* .land {
+} */
+
+.land .container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.land .container video {
+  height: 100vh;
+  width: 100%;
+  background-position: absolute;
+  z-index: 10;
+  object-fit: cover;
+}
+
+.land .cover {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  z-index: 20;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.land .cover .text {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+}
+
+.land .cover button {
+  width: 150px;
+  height: 50px;
+  background: transparent;
+  color: white;
+  letter-spacing: 2.5px;
+  border: 2px solid;
+  transition-duration: 0.5s;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.land .cover button:hover {
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+/* end  land */
+
+/* ----------------------------------------- */
+
+/* start menu */
+/* .menu_section {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.555),
+      rgba(0, 0, 0, 0.555),
+      rgba(0, 0, 0, 0.555),
+      rgba(0, 0, 0, 0.555)
+    ),
+    url(./blurdrinks.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 10px;
+}
+
+.menu_section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-face {
+  width: 40%;
+  height: 400px;
+  background: white transparent;
+  border: 1px solid white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_cont {
+  width: 95%;
+  height: 95%;
+  border: 1px solid white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-cont h3 {
+  margin-top: 10px;
+}
+
+.menu_section .hot_drinks {
+}
+
+.menu_section .hot_drinks img {
+  height: 200px;
+}
+
+.menu_section .cold_drinks {
+}
+
+.menu_section .cold_drinks img {
+  height: 200px;
+} */
+
+/* end menu */
