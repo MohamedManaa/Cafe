@@ -60,7 +60,6 @@ ul {
   background-size: cover;
   position: sticky;
   top: 0;
-  overflow: hidden;
 }
 .up-background h1 {
   color: white;
@@ -83,18 +82,73 @@ ul {
   top: 300px;
   border-radius: 60px 60px 0px 0px;
 }
-.up-background img {
-  margin: 0;
-  height: 150px;
-  position: absolute;
-  left: 49%;
-  top: 36%;
-  z-index: 50;
+.up-background .coffes {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.up-background .coffes h3 {
+  font-size: 50px;
+  font-family: fantasy;
+  letter-spacing: 30px;
+  color: #000000eb;
 }
 
-@media (min-width: 550px) {
-  .up-background img {
-    position: absolute;
-    left: 52%;
+.up-background .coffes img {
+  height: 150px;
+}
+
+@media (max-width: 475px) {
+  .up-background .coffes h3 {
+    font-size: 40px;
+    letter-spacing: 10px;
+  }
+
+  .up-background .coffes img {
+    height: 100px;
   }
 }
+
+/* ------ */
+/* start cards */
+.prod-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: white;
+  padding: 0;
+  margin-top: 10px;
+  height: auto;
+  border-bottom: 1px solid white;
+  border-radius: 0 0 40px 40px;
+  box-shadow: 7px 22px 17px -22px black;
+}
+.prod-card img {
+  height: 220px;
+}
+
+.prod-card p {
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.prod-card span {
+  font-size: 21px;
+  font-family: monospace;
+}
+
+@media (max-width: 475px) {
+  .prod-card img {
+    height: 190px;
+  }
+
+  .prod-card p {
+    font-size: 20px;
+  }
+
+  .prod-card span {
+    font-size: 15px;
+  }
+}
+/* end cards */
