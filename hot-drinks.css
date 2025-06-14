@@ -60,6 +60,7 @@ ul {
   background-size: cover;
   position: sticky;
   top: 0;
+  overflow: hidden;
 }
 .up-background h1 {
   color: white;
