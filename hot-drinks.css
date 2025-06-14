@@ -1,0 +1,99 @@
+/* start global ruls */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* larg */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* end global ruls */
+
+/* -------------------------- */
+
+/* start cards */
+
+/* ---------------- */
+
+.up-background {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(266deg, #000000c4, transparent),
+    url(./coffebeans2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+  top: 0;
+}
+.up-background h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  align-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 5%;
+  font-size: 3rem;
+  letter-spacing: 8px;
+}
+
+.up-background .container {
+  width: 100%;
+  height: 100vh;
+  background: white;
+  position: absolute;
+  top: 300px;
+  border-radius: 60px 60px 0px 0px;
+}
+.up-background img {
+  margin: 0;
+  height: 150px;
+  position: absolute;
+  left: 49%;
+  top: 36%;
+  z-index: 50;
+}
+
+@media (min-width: 550px) {
+  .up-background img {
+    position: absolute;
+    left: 52%;
+  }
+}

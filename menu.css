@@ -47,8 +47,9 @@ ul {
 /* -------------------------- */
 
 /* start cards */
-.menu-fase {
-}
+
+/* .menu-fase {
+} */
 
 .menu-fase .container {
   display: flex;
@@ -70,7 +71,7 @@ ul {
   flex-direction: column;
   border: 1px solid white;
   border-radius: 14%;
-  box-shadow: -7px 3px 55px -15px #000000db;
+  /* box-shadow: -7px 3px 55px -15px #000000db; */
   padding: 20px;
   transition-duration: 0.5s;
 }
@@ -84,9 +85,9 @@ ul {
   height: 100px;
 }
 
-.hot-drink {
+/* .hot-drink {
 }
 
 .cold-drink {
-}
+} */
 /* end cards */
